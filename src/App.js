@@ -1,6 +1,6 @@
 import herj from "./images/herjbday.png";
-import restaurantLogo from './images/restaurants.png'
-import Restaurants from "./components/Restaurants";
+import friday from './images/friday.png'
+import Itinerary from "./components/Itinerary";
 import "./App.css";
 
 function App() {
@@ -9,8 +9,11 @@ function App() {
       <div className="image-container">
         <img src={herj} className="img-fluid herj" alt="herjhoeass" />
       </div>
-      <img className="img-fluid" src={restaurantLogo} alt="restaurants logo" />
-      <Restaurants />
+      <img className="img-fluid" src={friday} alt="friday logo" />
+      <div className="text-center text-danger p-2">
+        <strong>🔴 WEAR RED 🔴</strong>
+      </div>
+      <Itinerary />
     </div>
   );
 }
