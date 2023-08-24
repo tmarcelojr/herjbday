@@ -128,15 +128,15 @@ export default function Itinerary() {
               class="accordion-button"
               type="button"
               data-bs-toggle="collapse"
-              data-bs-target="#collapseFive"
+              data-bs-target="#collapseTwo"
               aria-expanded="true"
-              aria-controls="collapseFive"
+              aria-controls="collapseTwo"
             >
               Rideshare to The Cafe
             </button>
           </h2>
           <div
-            id="collapseFive"
+            id="collapseTwo"
             class="accordion-collapse collapse "
             data-bs-parent="#accordionExample"
           >
